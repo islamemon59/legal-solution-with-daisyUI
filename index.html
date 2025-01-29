@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>legal-solution-with-daisyUI</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/b5d6806fe2.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/b5d6806fe2.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,7 +34,7 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              clifford: '#da373d',
               'dark1': '#111111',
               'dark2': '#414040',
               'dark3': '#707070',
@@ -44,61 +51,111 @@
   <body class="md:w-[1200px] md:mx-auto">
     <!-- Header section  -->
     <header>
-        <!-- Nav section  -->
-         <nav>
-            <div class="navbar bg-base-100 py-[3.125rem]">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow poppins-regular text-[1rem] text-dark3">
-                      <li><a>Home</a></li>
-                      <li><a>Services</a></li>
-                      <li><a>Cases</a></li>
-                      <li><a>Blog</a></li>
-                      <li><a>Contact Us</a></li>
-                    </ul>
-                  </div>
-                  <a class="btn btn-ghost text-xl">
-                    <img class="w-[80px] sm:w-[130px] md:w-[140px] lg:w-[160px]" src="images/logo2.png" alt="">
-                  </a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 poppins-regular text-[1rem] text-dark3">
-                    <li><a>Home</a></li>
-                    <li><a>Services <i class="fa-solid fa-chevron-right"></i></a></li>
-                    <li><a>Cases <i class="fa-solid fa-chevron-right"></i></a></li>
-                    <li><a>Blog <i class="fa-solid fa-chevron-right"></i></a></li>
-                    <li><a>Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                  <a class="btn bg-[#B68C5A] text-white text-[0.8rem] sm:text-[0.875rem] md:text-[1rem] lg:text-[1.125rem] font-semibold">Free Consultation</a>
-                </div>
+      <!-- Nav section  -->
+      <nav>
+        <div class="navbar bg-base-100 py-[3.125rem]">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
               </div>
-         </nav>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow poppins-regular text-[1rem] text-dark3"
+              >
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Cases</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl">
+              <img
+                class="w-[80px] sm:w-[130px] md:w-[140px] lg:w-[160px]"
+                src="images/logo2.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul
+              class="menu menu-horizontal px-1 poppins-regular text-[1rem] text-dark3"
+            >
+              <li><a>Home</a></li>
+              <li>
+                <a>Services <i class="fa-solid fa-chevron-right"></i></a>
+              </li>
+              <li>
+                <a>Cases <i class="fa-solid fa-chevron-right"></i></a>
+              </li>
+              <li>
+                <a>Blog <i class="fa-solid fa-chevron-right"></i></a>
+              </li>
+              <li>
+                <a>Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a
+              class="btn bg-[#B68C5A] text-white text-[0.8rem] sm:text-[0.875rem] md:text-[1rem] lg:text-[1.125rem] font-semibold"
+              >Free Consultation</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- Banner section  -->
+      <div class="banner">
+        <!-- Banner hero background -->
+        <div
+          class="hero bg-[url(/images/banner.png)] bg-cover bg-center rounded-[0.5rem] lg:w-full py-[6.5rem]"
+        >
+          <div
+            class="hero-content sm:w-[25.125rem] md:w-[38.125rem] lg:w-[43.125rem] text-center"
+          >
+            <div class="">
+                <!-- Banner hero title  -->
+              <h1
+                class="text-white text-[2.8rem] md:text-[4rem] lg:text-[4.5rem] font-extrabold leading-[5.3125rem] eb-garamond"
+              >
+                We Provide Effective Legal Solutions
+              </h1>
+              <!-- banner hero description -->
+              <p class="py-6 poppins-regular text-dark6 leading-[1.375rem] md:leading-[1.5rem] lg:leading-[1.625rem] text-[0.875rem] lg:text-[1rem]">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+            <!-- banner search bar btn  -->
+              <div class="flex justify-center mt-[1.25rem]">
+                <input
+                  type="text"
+                  placeholder="Search your services"
+                  class="input w-full max-w-md py-[25px]"
+                /><button class="btn bg-[#B68C5A] text-white ml-[20px] border-none h-[3.3rem] text-[1.25rem] placeholder:text-dark4 poppins-regular">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- Main section  -->
-    <main>
-
-    </main>
+    <main></main>
     <!-- Footer section  -->
-    <footer>
-
-    </footer>
+    <footer></footer>
   </body>
 </html>
